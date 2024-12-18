@@ -5,12 +5,44 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Online store</title>
         <link rel="stylesheet" href="./css/styles.css">
+        
+        <style>
+            body {
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                margin: 20px;
+            }
+            button {
+                padding: 10px 15px;
+                background-color: darkseagreen;
+                color: aliceblue;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+            }
 
-        </head>
-        <body>
-            <div class="container">
-            <h1>Welcome</h1>
-            <div class="product">
+            .product {
+                border: 1px solid #ccc;
+                padding: 20px;
+                margin: 10px;
+                display: inline-block;
+                width: 200px;
+                text-align: center;
+            }
+        </style>
+    </head>
+
+    <body>
+            <header class="main-header">
+                <div class="header-logo">
+                  <!--<img src="logo.png" alt="My web"-->
+            </div> 
+            <nav class="header-nav">
+                <ul>
+                    <li><a href="/">Home page</a></li>
+                    <li><a href="/about">About us</a></li>
+                </ul>
+                </nav>
+            </header>
                 <h2>Poduct 1</h2>
                 <p>Price: 2 euro</p>
                 <button id="buyButton">Buy</button>

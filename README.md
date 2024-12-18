@@ -1,16 +1,16 @@
 to install and run backend:
-
 ```
 mvn install
 mvn spring-boot:run
 ```
 
-install parcel
+to install and run frontend
 ```
-npm install --save-dev parcel
+npm ci
+npx start
 ```
 
-to run frontend
+backend server address
 ```
-npx parcel front/index.html
+http://localhost:8080/productos/
 ```

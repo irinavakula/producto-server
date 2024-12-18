@@ -7,7 +7,7 @@ mvn spring-boot:run
 
 install parcel
 ```
-npx parcel front/index.html 
+npm install --save-dev parcel
 ```
 
 to run frontend

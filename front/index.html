@@ -7,12 +7,24 @@
         <link rel="stylesheet" href="./css/styles.css">
         <script src="./node_modules/jquery/dist/jquery.js"></script>
         <script src="./index.js"></script>
-        
     </head>  
     <body>
         <header>
             <h1>Online Store</h1>
-            <div id="products-list"></div>
+            <button id="basket">
+                <img src="./basket.jpg" style="width: 30px; height: auto;">
+            </button>
+            <div id="total-price">Total: $0.00</div>
+            <div id="overlay" style="display: none"></div>
+            <div id="popup" style="display: none">
+                <h2>Your Basket</h2>
+                <div id="basket-products"></div>
+                <p id="total-price"></p>
+                <button id="checkout">Checkout</button>
+                <button id="close-popup">Close</button>
+                </div>
+                <button id="buy">BUY</button>
+            </div>
         </header> 
         <div class="flex-container">
     </body>         

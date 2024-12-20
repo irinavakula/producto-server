@@ -5,53 +5,18 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Online store</title>
         <link rel="stylesheet" href="./css/styles.css">
-        
-        <style>
-            body {
-                font-family: Verdana, Geneva, Tahoma, sans-serif;
-                margin: 20px;
-            }
-            button {
-                padding: 10px 15px;
-                background-color: darkseagreen;
-                color: aliceblue;
-                border: none;
-                border-radius: 5px;
-                cursor: pointer;
-            }
-
-            .product {
-                border: 1px solid #ccc;
-                padding: 20px;
-                margin: 10px;
-                display: inline-block;
-                width: 200px;
-                text-align: center;
-            }
-        </style>
-    </head>
-
-    <body>
-            <header class="main-header">
-                <div class="header-logo">
-                  <!--<img src="logo.png" alt="My web"-->
-            </div> 
-            <nav class="header-nav">
-                <ul>
-                    <li><a href="/">Home page</a></li>
-                    <li><a href="/about">About us</a></li>
-                </ul>
-                </nav>
-            </header>
-                <h2>Poduct 1</h2>
-                <p>Price: 2 euro</p>
-                <button id="buyButton">Buy</button>
-            </div>
-            <div id="paymentSelection" style="display: none;">
-                <h2>Payment</h2>   
-                <button id="payButton">Payment</button>
-            </div>
-        </div>         
-        </body>
+        <script src="./node_modules/jquery/dist/jquery.js"></script>
         <script src="./index.js"></script>
-    </html>    
+        
+    </head>  
+    <body>
+        <header>
+            <h1>Online Store</h1>
+            <div id="products-list"></div>
+        </header> 
+        <div class="flex-container">
+    </body>         
+    <footer>
+        <p> 2024 Tienda Online</p>
+    </footer>
+</html>

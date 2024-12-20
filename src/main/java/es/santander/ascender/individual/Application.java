@@ -11,7 +11,7 @@ public class Application {
 		SpringApplication.run(Application.class, args);
 	}
 
-	// @Bean
+	//@Bean
     // public OpenAPI customOpenAPI() {
     //     return new OpenAPI()
     //             .info(new Info().title("Mi API")

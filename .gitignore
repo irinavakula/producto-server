@@ -32,6 +32,8 @@ build/
 ### VS Code ###
 .vscode/
 
-node_modules/
+front/node_modules/
+front/dist
+front/.parcel-cache
 
 .parcel-cache
